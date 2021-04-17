@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>Deminer</title>
+	<link rel = "stylesheet" href = "deminer.css">
+</head>
+<body>
+
+<div id = "wreaper"></div>
+
+<div class = "inputs"><input id = "innocent_radio" name = "radio" type = "radio" value = "show_innocent" checked >Количество безопасных ячеек рядом</div>
+<div class = "inputs"><input id = "bomb_radio" name = "radio" type = "radio" value = "show_bomb">Количество бомб рядом</div>
+
+<div id = "status"></div>
+
+<div class = "rules">
+	<div class = "rule">ЛКМ - разминирование</div>
+	<div class = "rule">ПКМ - пометка бомбы</div>
+</div>
+
+<a href = "javascript:window.location.reload()" class = "new_game">Новая игра</a>
+
+<script defer src = "deminer.js"></script>
+
+</body>
+</html>
