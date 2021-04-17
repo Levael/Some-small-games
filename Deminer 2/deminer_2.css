@@ -1,0 +1,69 @@
+#wreaper {
+	display: grid;
+	grid-auto-flow: column;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.cell {
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 19px;
+	text-align: center;
+	border: 1px solid grey;
+	background-color: #DADADA;
+	color: #BCBCBC;
+	cursor: default;
+}
+
+.base_cell {
+	background-color: white !important;
+	color: black;
+}
+
+.innocent {
+	background-color: white !important;
+	color: black;
+}
+
+.bomb {
+	background-color: #F08080 !important;
+	color: white;
+}
+
+.labeled {
+	background-color: #6495ED !important;
+	color: #6495ED;
+}
+
+.inputs {
+	margin-top: 15px;
+	margin-bottom: -10px;
+	font-size: 17px;
+	clear: both;
+}
+
+#status {
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.rules {
+	margin-top: 20px;
+}
+
+.new_game {
+	display: inline-block;
+	width: auto;
+	margin-top: 30px;
+	background-color: #DADADA;
+	padding: 5px;
+	border: 2px solid black;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 30px;
+	color: black;
+}
